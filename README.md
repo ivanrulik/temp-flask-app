@@ -5,6 +5,21 @@ This is a project that I started to learn more about Flask and how I can integra
 ## Functionality of this add
 - Mysql lite databases
 
+## Docker 
+This project has a docker container, you can test it by:
+1. Doing a docker pull:
+    ```bash
+    docker pull ivanrulik/temp-flask-app:latest
+    ```
+2. Test the by running an attached container:
+    ```bash
+    docker run -p 8000:5000 ivanrulik/temp-flask-app
+    ```
+3. Open the app in your browser (copy and paste)
+    ```bash
+    127.0.0.1:8000
+    ```
+
 ## Setup environment for the project
 Follow this steps by copying the commands on the terminal:
 1. Clone this repository
