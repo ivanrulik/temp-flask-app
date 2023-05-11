@@ -19,12 +19,20 @@ Follow this steps by copying the commands on the terminal:
     ```bash
     source env/bin/activate
     ```
-4. Export the project enviromental variables
+4. Install python requirements
+    ```bash
+    pip install -r requirements.txt
+    ```
+5. Export the project enviromental variables
     ```bash
     export FLASK_APP=app
     ```
     ```bash
     export FLASK_ENV=development
+    ```
+6. Inittialice the data base
+    ```bash
+    python init_db.py
     ```
 
 ## Run app
