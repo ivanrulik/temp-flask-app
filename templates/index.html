@@ -2,6 +2,10 @@
 
 {% block content %}
     <h1>{% block title %} Welcome to FlaskBlog {% endblock %}</h1>
+    <h2>Flask Button Example</h2>
+    <form onsubmit="myFunc(event); return false;">
+        <input type="submit" value="Test">
+    </form>
     {% for post in posts %}
         <a href="{{ url_for('post', post_id=post['id']) }}">
             <h2>{{ post['title'] }}</h2>

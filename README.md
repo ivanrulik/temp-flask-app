@@ -2,8 +2,8 @@
 
 This is a project that I started to learn more about Flask and how I can integrate it to previous and future projects
 
-## Functionality of this add
-- Mysql lite databases
+## Functionality of this apps
+- Mysqlite databases
 
 ## Docker 
 This project has a docker container, you can test it by:
